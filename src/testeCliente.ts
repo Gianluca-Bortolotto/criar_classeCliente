@@ -1,6 +1,5 @@
 import { Cliente } from './models/Cliente.js';
 
-// Massa de testes fornecida (extraído apenas o ano de cada data)
 const listaClientes = [
   {
     id: 1,

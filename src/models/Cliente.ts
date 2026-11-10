@@ -33,7 +33,6 @@ export class Cliente {
     return this.anoNascimento;
   }
 
-  // Fórmula solicitada: Idade = ano atual - ano de nascimento
   public getIdade(): number {
     const anoAtual = new Date().getFullYear();
     return anoAtual - this.anoNascimento;
